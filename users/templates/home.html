@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sign In</title>
+</head>
+<body>
+    {% load socialaccount %}
+    <h2>Google Login</h2>
+    <a href="{% provider_login_url 'google' %}?next=/subscriptions-home/">Login with Google</a>
+    
+    {% if user.is_authenticated %}
+    <p>You are logged in as {{user.email}}</p>
+    <a href="{% url 'logout' %}?next=/">Logout</a>
+    {% endif %}
+</body>
+</html>
