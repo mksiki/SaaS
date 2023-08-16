@@ -1,5 +1,5 @@
 # Django-WebApp
-Django WebApp is a web application built using the Django framework that allows users to interact with a subscription system, Google authentication, and user management features. It provides functionalities for user registration, login with Google, subscription management, and more.
+Django WebApp is a web application built using the Django framework that allows users to interact with a subscription system, Google authentication, and user management features. It provides functionalities for user registration, login with Google, subscription management using Stripe, PostgresSQL(ElephantSQL-PGAdmin4) and more.
 
 ## Table of Contents
 
