@@ -47,7 +47,7 @@ def stripe_config(request):
 @csrf_exempt
 def create_checkout_session(request):
      if request.method == 'GET':
-        domain_url = 'http://0.0.0.0:8000/'
+        domain_url = 'http://ec2-52-53-155-28.us-west-1.compute.amazonaws.com:8000/'
         stripe.api_key = settings.STRIPE_SECRET_KEY
         try:
             checkout_session = stripe.checkout.Session.create(
