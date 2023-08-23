@@ -7,7 +7,6 @@ Django WebApp is a web application built using the Django framework that allows 
 - [Installation](#installation)
 - - [Prerequisites](#prerequisites)
 - - [Installation Steps](#installation-steps)
-- [Deployment on AWS EC2](#deployment-on-aws-ec2)  
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -71,19 +70,6 @@ Usage
     Launch the application and navigate to the home page.
     Use Google authentication to log in.
     Once logged in, you can manage your subscription, view, create, update, or delete user accounts.
-
-Deployment on AWS EC2 
-
-    To deploy the Django app on AWS EC2, follow these steps:
-
-    1. Create an AWS EC2 instance using the Amazon Linux AMI.
-    2. Click the "Connect" button in the AWS Management Console to access the instance using EC2 Instance Connect.
-    3. Install required dependencies (Python, Pip, etc.).
-    4. Clone your Django app repository.
-    5. Make necessary changes to the project using Vim or any preferred text editor.
-    6. Use `git pull` to update the code from your repository.
-    7. Run the necessary migrations and server setup.
-    8. Access the web application through your instance's public IP.
 
 Contributing
 
