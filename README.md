@@ -29,29 +29,28 @@ Django WebApp is a web application built using the Django framework that allows 
 - Stripe API keys (required for subscription functionality)
 
 ### Installation Steps
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Django-WebApp.git
    cd Django-WebApp
-   
+
 2. Install the required Python packages using pip:
-  ```bash
-  pip install -r requirements.txt
+   bash
+   pip install -r requirements.txt
 
 3. Set up your Stripe API keys:
 Replace STRIPE_PUBLISHABLE_KEY and STRIPE_SECRET_KEY in settings.py with your Stripe API keys.
 Replace STRIPE_PRICE_ID and STRIPE_ENDPOINT_SECRET with your Stripe price ID and webhook secret.
 
 4. Run the Django development server:
-   ```bash
-    python manage.py runserver
-    Access the web application in your browser at http://localhost:8000/.
+   bash
+   python manage.py runserver
+   Access the web application in your browser at http://localhost:8000/.
 
   Dockerized Installation (Optional):
   Make sure you have Docker installed.
   Build the Docker image and run the container:
-  ```bash
+  bash
   docker-compose up --build
   Access the web application in your browser at http://localhost:8000/.
 
