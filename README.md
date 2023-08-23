@@ -38,8 +38,8 @@ Install the required Python packages using pip:
 
 bash
 pip install -r requirements.txt
-Set up your Stripe API keys:
 
+Set up your Stripe API keys:
 Replace STRIPE_PUBLISHABLE_KEY and STRIPE_SECRET_KEY in settings.py with your Stripe API keys.
 Replace STRIPE_PRICE_ID and STRIPE_ENDPOINT_SECRET with your Stripe price ID and webhook secret.
 Run the Django development server:
