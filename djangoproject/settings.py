@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'p!-q=_qjbhqskthf422$6)7(i3ucbl1y5z3jk1v6tn-ciyfaf*'
+SECRET_KEY = 'use-your-own'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -94,9 +94,9 @@ WSGI_APPLICATION = 'djangoproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ghgfxfku',
-        'USER': 'ghgfxfku',
-        'PASSWORD': 'z5dx1h32zfeeCDXV7zHsmMJovWqucpbZ',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'bubble.db.elephantsql.com',
         'PORT': '5432',
     }
@@ -156,10 +156,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [Path(BASE_DIR).joinpath('static')]
 
 STRIPE_PUBLISHABLE_KEY = 'pk_test_51Ne2rQJT3gJfWCuGl4Bs460rtpkgfUWXs2TOAWBNrEdsHvRE8CWLyCmE1zZFiKsDIZdpWu31cx9ojpEEEyodM0Od00FkxTH5mf'
-STRIPE_SECRET_KEY = 'sk_test_51Ne2rQJT3gJfWCuGFYAec1vmL50exOISTsxnPtRFhkC1r1uxExiIRFJLkdwDMMs0SWGg4vX9LrX6JPHXNhETvsZ2000BCjSXPV'
+STRIPE_SECRET_KEY = 'use-your-own'
 
 STRIPE_PRICE_ID = 'price_1Ne67bJT3gJfWCuGLPjiI8Z6'
-STRIPE_ENDPOINT_SECRET = 'whsec_61bb8f14766a323539fbe221023d892d775efaebfd37748af73adbeb0005bc4e'
+STRIPE_ENDPOINT_SECRET = 'use-your-own'
 
 
 AUTHENTICATION_BACKENDS = (
