@@ -91,4 +91,3 @@ License
 
 This project is licensed under the MIT License.
 
-Note: This README provides a general guide to get started with the Django WebApp project. Make sure to customize it according to your specific project details and requirements.
